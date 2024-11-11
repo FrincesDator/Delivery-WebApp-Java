@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="DELIVERY">
+  <grid id="cbd77" binding="contentPane" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="48" y="54" width="1007" height="750"/>
+    </constraints>
+    <properties>
+      <background color="-2175030"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="94766" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="9538f" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2175030"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="1835e" class="javax.swing.JButton" binding="btnInfo">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-7439761"/>
+                  <font name="Rockwell Extra Bold" size="14"/>
+                  <foreground color="-1514279"/>
+                  <text value="INFORMATION ABOUT THE SYSTEM"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="e3588" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2175030"/>
+        </properties>
+        <border type="none" title="MCDONALDS LUCENA DELIVERY" title-justification="3" title-position="2">
+          <font name="Rockwell Extra Bold" size="14"/>
+          <title-color color="-4753041"/>
+          <color color="-4753041"/>
+        </border>
+        <children>
+          <tabbedpane id="e5873" binding="DELIVERY">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="200"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-7439761"/>
+              <font name="Rockwell Extra Bold" size="14"/>
+              <foreground color="-1514279"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="7d39a" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="WELCOME PAGE"/>
+                </constraints>
+                <properties>
+                  <background color="-2175030"/>
+                  <foreground color="-2175030"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="1eed" class="javax.swing.JLabel" binding="label7" custom-create="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="  "/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="7c29e" layout-manager="GridLayoutManager" row-count="5" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="CALCULATE FEE"/>
+                </constraints>
+                <properties>
+                  <background color="-2175030"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <scrollpane id="54476">
+                    <constraints>
+                      <grid row="0" column="2" row-span="4" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-1514279"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="cddc5" class="javax.swing.JTable" binding="table1" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <selectionBackground color="-2175030"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <grid id="9e562" layout-manager="GridLayoutManager" row-count="15" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2175030"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="ba6be" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Rockwell Extra Bold" size="14" style="1"/>
+                          <foreground color="-4753041"/>
+                          <text value="DESTINATION"/>
+                        </properties>
+                      </component>
+                      <component id="e2465" class="javax.swing.JRadioButton" binding="rb_b5_2">
+                        <constraints>
+                          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="BARANGAY 5"/>
+                        </properties>
+                      </component>
+                      <component id="6db0f" class="javax.swing.JRadioButton" binding="rb_b6_2">
+                        <constraints>
+                          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="BARANGAY 6"/>
+                        </properties>
+                      </component>
+                      <component id="aa566" class="javax.swing.JRadioButton" binding="rb_b7_2">
+                        <constraints>
+                          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="BARANGAY 7"/>
+                        </properties>
+                      </component>
+                      <component id="e4db" class="javax.swing.JRadioButton" binding="rb_b8_2">
+                        <constraints>
+                          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="BARANGAY 8"/>
+                        </properties>
+                      </component>
+                      <component id="da39d" class="javax.swing.JRadioButton" binding="rb_b3_2">
+                        <constraints>
+                          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="BARANGAY 3"/>
+                        </properties>
+                      </component>
+                      <component id="97e7b" class="javax.swing.JRadioButton" binding="rb_b4_2">
+                        <constraints>
+                          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="BARANGAY 4"/>
+                        </properties>
+                      </component>
+                      <component id="cbe62" class="javax.swing.JRadioButton" binding="rb_b1_2">
+                        <constraints>
+                          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="BARANGAY 1"/>
+                        </properties>
+                      </component>
+                      <component id="e3126" class="javax.swing.JRadioButton" binding="rb_b2_2">
+                        <constraints>
+                          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="BARANGAY 2"/>
+                        </properties>
+                      </component>
+                      <component id="3beb3" class="javax.swing.JRadioButton" binding="rb_b9_2">
+                        <constraints>
+                          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="BARANGAY 9"/>
+                        </properties>
+                      </component>
+                      <component id="2b64e" class="javax.swing.JRadioButton" binding="rb_b10_2">
+                        <constraints>
+                          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="BARANGAY 10"/>
+                        </properties>
+                      </component>
+                      <component id="49aed" class="javax.swing.JRadioButton" binding="rb_b11_2">
+                        <constraints>
+                          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="BARANGAY 11"/>
+                        </properties>
+                      </component>
+                      <component id="4d5b1" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Rockwell Extra Bold" size="14" style="1"/>
+                          <foreground color="-4753041"/>
+                          <text value="MCDO LOCATIONS"/>
+                        </properties>
+                      </component>
+                      <component id="fc003" class="javax.swing.JRadioButton" binding="rb_bayan">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="MCDO BAYAN"/>
+                        </properties>
+                      </component>
+                      <component id="3642e" class="javax.swing.JRadioButton" binding="rb_diversion">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="MCDO DIVERSION"/>
+                        </properties>
+                      </component>
+                      <component id="5c632" class="javax.swing.JRadioButton" binding="rb_sm">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="MCDO SM"/>
+                        </properties>
+                      </component>
+                      <component id="99bba" class="javax.swing.JRadioButton" binding="rb_bocohan_2">
+                        <constraints>
+                          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="BOCOHAN"/>
+                        </properties>
+                      </component>
+                      <component id="7a02d" class="javax.swing.JRadioButton" binding="rb_cotta_2">
+                        <constraints>
+                          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="COTTA"/>
+                        </properties>
+                      </component>
+                      <component id="c56c6" class="javax.swing.JRadioButton" binding="rb_gulang_2">
+                        <constraints>
+                          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="GULANG-GULANG"/>
+                        </properties>
+                      </component>
+                      <component id="83881" class="javax.swing.JRadioButton" binding="rb_dalahican_2">
+                        <constraints>
+                          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="DALAHICAN"/>
+                        </properties>
+                      </component>
+                      <component id="518fd" class="javax.swing.JRadioButton" binding="rb_domoit_2">
+                        <constraints>
+                          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="DOMOIT"/>
+                        </properties>
+                      </component>
+                      <component id="95f5f" class="javax.swing.JRadioButton" binding="rb_ibadupay_2">
+                        <constraints>
+                          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="IBABANG DUPAY"/>
+                        </properties>
+                      </component>
+                      <component id="ec70e" class="javax.swing.JRadioButton" binding="rb_ibaiyam_2">
+                        <constraints>
+                          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="IBABANG IYAM"/>
+                        </properties>
+                      </component>
+                      <component id="a00c6" class="javax.swing.JRadioButton" binding="rb_ibatalim_2">
+                        <constraints>
+                          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="IBABANG TALIM"/>
+                        </properties>
+                      </component>
+                      <component id="a8e12" class="javax.swing.JRadioButton" binding="rb_iladupay_2">
+                        <constraints>
+                          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="ILAYANG DUPAY"/>
+                        </properties>
+                      </component>
+                      <component id="ebf33" class="javax.swing.JRadioButton" binding="rb_ilaiyam_2">
+                        <constraints>
+                          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="ILAYANG IYAM"/>
+                        </properties>
+                      </component>
+                      <component id="89a40" class="javax.swing.JRadioButton" binding="rb_ilatalim_2">
+                        <constraints>
+                          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="ILAYANG TALIM"/>
+                        </properties>
+                      </component>
+                      <component id="a40b7" class="javax.swing.JRadioButton" binding="rb_isabang_2">
+                        <constraints>
+                          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="ISABANG"/>
+                        </properties>
+                      </component>
+                      <component id="723c9" class="javax.swing.JRadioButton" binding="rb_market_2">
+                        <constraints>
+                          <grid row="12" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="MARKET VIEW"/>
+                        </properties>
+                      </component>
+                      <component id="4edaa" class="javax.swing.JRadioButton" binding="rb_crossing_2">
+                        <constraints>
+                          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="MAYAO CROSSING"/>
+                        </properties>
+                      </component>
+                      <component id="b3c12" class="javax.swing.JRadioButton" binding="rb_kanluran_2">
+                        <constraints>
+                          <grid row="13" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="MAYAO KANLURAN"/>
+                        </properties>
+                      </component>
+                      <component id="9a0ac" class="javax.swing.JRadioButton" binding="rb_parada_2">
+                        <constraints>
+                          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="MAYAO PARADA"/>
+                        </properties>
+                      </component>
+                      <component id="3be10" class="javax.swing.JRadioButton" binding="rb_silangan_2">
+                        <constraints>
+                          <grid row="14" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="MAYAO SILANGAN"/>
+                        </properties>
+                      </component>
+                      <grid id="3155" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="1" row-span="15" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="bab05" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <text value="                 "/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="c4085" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2175030"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="5723f" class="javax.swing.JButton" binding="btnCancel">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-7439761"/>
+                          <font name="Rockwell Extra Bold" size="14"/>
+                          <foreground color="-1514279"/>
+                          <text value="CANCEL"/>
+                        </properties>
+                      </component>
+                      <component id="e7465" class="javax.swing.JButton" binding="btnSeeTable">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-7439761"/>
+                          <font name="Rockwell Extra Bold" size="14"/>
+                          <foreground color="-1514279"/>
+                          <text value="SEE TABLE"/>
+                        </properties>
+                      </component>
+                      <component id="a5e79" class="javax.swing.JButton" binding="btnClear">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-7439761"/>
+                          <font name="Rockwell Extra Bold" size="14"/>
+                          <foreground color="-1514279"/>
+                          <text value="CLEAR"/>
+                        </properties>
+                      </component>
+                      <component id="f340d" class="javax.swing.JButton" binding="btnEstimate">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-7439761"/>
+                          <font name="Rockwell Extra Bold" size="14"/>
+                          <foreground color="-1514279"/>
+                          <text value="ESTIMATE  FEE"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="9532a" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2175030"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="e5d17" class="javax.swing.JLabel" binding="label3" custom-create="true">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="        "/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="71a83" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2175030"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="6282" class="javax.swing.JLabel" binding="label1" custom-create="true">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <horizontalAlignment value="4"/>
+                          <horizontalTextPosition value="4"/>
+                          <text value="           "/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="a452e" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2175030"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="8b79" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-7316660"/>
+                          <font name="Rockwell Extra Bold"/>
+                          <foreground color="-2450299"/>
+                          <text value="CUSTOMER NAME:"/>
+                        </properties>
+                      </component>
+                      <component id="76838" class="javax.swing.JTextField" binding="txtName">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-7439761"/>
+                          <font name="Stencil" size="14"/>
+                          <foreground color="-1514279"/>
+                          <horizontalAlignment value="4"/>
+                          <margin top="2" left="6" bottom="2" right="6"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="63b95" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2175030"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="25d0c" class="javax.swing.JButton" binding="btnCalculate">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-7439761"/>
+                          <font name="Rockwell Extra Bold" size="14"/>
+                          <foreground color="-1514279"/>
+                          <text value="ADD TO TABLE"/>
+                        </properties>
+                      </component>
+                      <component id="14b18" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="                       "/>
+                        </properties>
+                      </component>
+                      <component id="a23e0" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="                       "/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="42986" layout-manager="GridLayoutManager" row-count="11" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="CUSTOMER INFO"/>
+                </constraints>
+                <properties>
+                  <background color="-2175030"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <scrollpane id="89153">
+                    <constraints>
+                      <grid row="0" column="3" row-span="11" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="91a8e" class="javax.swing.JTable" binding="table2" default-binding="true">
+                        <constraints/>
+                        <properties/>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <component id="73eb" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Rockwell Extra Bold"/>
+                      <foreground color="-2450299"/>
+                      <text value="NAME:"/>
+                    </properties>
+                  </component>
+                  <component id="b3988" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Rockwell Extra Bold"/>
+                      <foreground color="-2450299"/>
+                      <text value="WORTH OF FOOD TO BE DELIVERED:"/>
+                    </properties>
+                  </component>
+                  <component id="103c" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Rockwell Extra Bold"/>
+                      <foreground color="-2450299"/>
+                      <text value="CITIZEN TYPE:"/>
+                    </properties>
+                  </component>
+                  <component id="bb4cd" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Rockwell Extra Bold"/>
+                      <foreground color="-2450299"/>
+                      <text value="RUSH ORDER: (ADDITIONAL 20% ON DF)"/>
+                    </properties>
+                  </component>
+                  <component id="84d46" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Rockwell Extra Bold"/>
+                      <foreground color="-4753041"/>
+                      <text value="ESTIMATED DELIVERY FEE:"/>
+                    </properties>
+                  </component>
+                  <component id="7645a" class="javax.swing.JComboBox" binding="cmbMOP">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-7439761"/>
+                      <font name="Rockwell" size="14"/>
+                      <foreground color="-1514279"/>
+                      <model>
+                        <item value="STUDENT (10% OFF ON DELIVERY FEE)"/>
+                        <item value="SENIOR CITIZEN (20% OFF ON DELIVERY FEE)"/>
+                        <item value="PWD (20% OFF ON DELIVERY FEE)"/>
+                        <item value="NONE/OTHERS"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="a8b0b" class="javax.swing.JTextField" binding="txtTime">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-5795195"/>
+                      <editable value="false"/>
+                      <font name="Stencil" size="14"/>
+                      <foreground color="-1514279"/>
+                      <horizontalAlignment value="4"/>
+                    </properties>
+                  </component>
+                  <component id="87114" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Rockwell Extra Bold"/>
+                      <foreground color="-2450299"/>
+                      <text value="TIME AND DATE: (MM/DD/YYYY - HR/MIN AM/PM)"/>
+                    </properties>
+                  </component>
+                  <component id="fa99e" class="javax.swing.JTextField" binding="txtDate">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-7439761"/>
+                      <font name="Stencil" size="14"/>
+                      <foreground color="-1514279"/>
+                      <horizontalAlignment value="4"/>
+                    </properties>
+                  </component>
+                  <component id="bda88" class="javax.swing.JCheckBox" binding="cbYes">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2175030"/>
+                      <font name="Rockwell Extra Bold"/>
+                      <foreground color="-2450299"/>
+                      <text value="YES"/>
+                    </properties>
+                  </component>
+                  <component id="7713f" class="javax.swing.JCheckBox" binding="cbNo">
+                    <constraints>
+                      <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2175030"/>
+                      <font name="Rockwell Extra Bold"/>
+                      <foreground color="-2450299"/>
+                      <text value="NO"/>
+                    </properties>
+                  </component>
+                  <component id="ebe68" class="javax.swing.JButton" binding="btnSeeTable2">
+                    <constraints>
+                      <grid row="7" column="0" row-span="2" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-7439761"/>
+                      <font name="Rockwell Extra Bold" size="14"/>
+                      <foreground color="-1514279"/>
+                      <text value="SEE TABLE"/>
+                    </properties>
+                  </component>
+                  <component id="89a16" class="javax.swing.JButton" binding="btnSubmitInfo">
+                    <constraints>
+                      <grid row="9" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-7439761"/>
+                      <font name="Rockwell Extra Bold" size="14"/>
+                      <foreground color="-1514279"/>
+                      <text value="SUBMIT INFO"/>
+                    </properties>
+                  </component>
+                  <component id="ea19d" class="javax.swing.JComboBox" binding="cmbName">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-7439761"/>
+                      <font name="Rockwell" size="14"/>
+                      <foreground color="-1514279"/>
+                    </properties>
+                  </component>
+                  <component id="9e740" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Rockwell Extra Bold"/>
+                      <foreground color="-4753041"/>
+                      <text value="NEW TOTAL DELIVERY FEE:"/>
+                    </properties>
+                  </component>
+                  <component id="958cf" class="javax.swing.JTextField" binding="txtNewTotal">
+                    <constraints>
+                      <grid row="10" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-5795195"/>
+                      <editable value="false"/>
+                      <font name="Stencil" size="14"/>
+                      <foreground color="-1514279"/>
+                      <horizontalAlignment value="4"/>
+                    </properties>
+                  </component>
+                  <component id="668dd" class="javax.swing.JTextField" binding="txtWOF">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-7439761"/>
+                      <font name="Stencil" size="14"/>
+                      <foreground color="-1514279"/>
+                      <horizontalAlignment value="4"/>
+                    </properties>
+                  </component>
+                  <component id="618ad" class="javax.swing.JLabel" binding="label4" custom-create="true">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="              "/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="95e49" layout-manager="GridLayoutManager" row-count="12" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="SUMMARY / PAYMENT"/>
+                </constraints>
+                <properties>
+                  <background color="-2175030"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="9a550" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Rockwell Extra Bold"/>
+                      <foreground color="-2450299"/>
+                      <text value="NAME:"/>
+                    </properties>
+                  </component>
+                  <component id="88bca" class="javax.swing.JComboBox" binding="cmbName3">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-7439761"/>
+                      <font name="Rockwell" size="14"/>
+                      <foreground color="-1514279"/>
+                    </properties>
+                  </component>
+                  <component id="e3f7a" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Rockwell Extra Bold"/>
+                      <foreground color="-4753041"/>
+                      <text value="AMOUNT TO PAY:"/>
+                    </properties>
+                  </component>
+                  <component id="91231" class="javax.swing.JTextField" binding="txtPay">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-5795195"/>
+                      <editable value="false"/>
+                      <font name="Stencil" size="14"/>
+                      <foreground color="-1514279"/>
+                      <horizontalAlignment value="2"/>
+                    </properties>
+                  </component>
+                  <component id="64e18" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Rockwell Extra Bold"/>
+                      <foreground color="-2450299"/>
+                      <text value="MODE OF PAYMENT:"/>
+                    </properties>
+                  </component>
+                  <component id="eba61" class="javax.swing.JComboBox" binding="cmbMOP2">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-7439761"/>
+                      <font name="Rockwell" size="14"/>
+                      <foreground color="-1514279"/>
+                      <model>
+                        <item value="COD"/>
+                        <item value="GCASH"/>
+                        <item value="PAYMAYA"/>
+                        <item value="DEBIT/CREDIT CARD"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="fbf57" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Rockwell Extra Bold"/>
+                      <foreground color="-4753041"/>
+                      <text value="CHANGE:"/>
+                    </properties>
+                  </component>
+                  <component id="fb86b" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Rockwell Extra Bold"/>
+                      <foreground color="-2450299"/>
+                      <text value="AVAILABLE CASH:"/>
+                    </properties>
+                  </component>
+                  <component id="f7a45" class="javax.swing.JTextField" binding="txtCash">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-7439761"/>
+                      <font name="Stencil" size="14"/>
+                      <foreground color="-1514279"/>
+                      <horizontalAlignment value="2"/>
+                    </properties>
+                  </component>
+                  <component id="adc36" class="javax.swing.JTextField" binding="txtChange">
+                    <constraints>
+                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-5795195"/>
+                      <editable value="false"/>
+                      <font name="Stencil" size="14"/>
+                      <foreground color="-1514279"/>
+                      <horizontalAlignment value="2"/>
+                    </properties>
+                  </component>
+                  <scrollpane id="11ee1">
+                    <constraints>
+                      <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="2630f" class="javax.swing.JTable" binding="table3" default-binding="true">
+                        <constraints/>
+                        <properties/>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <component id="6288f" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="         "/>
+                    </properties>
+                  </component>
+                  <component id="303e7" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Rockwell Extra Bold"/>
+                      <foreground color="-4753041"/>
+                      <text value="CUSTOMER HISTORY:"/>
+                    </properties>
+                  </component>
+                  <component id="be359" class="javax.swing.JLabel" binding="label6" custom-create="true">
+                    <constraints>
+                      <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="  "/>
+                    </properties>
+                  </component>
+                  <grid id="11885" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="11" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2175030"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="76a50" class="javax.swing.JButton" binding="btnSeeTable3">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-7439761"/>
+                          <font name="Rockwell Extra Bold" size="14"/>
+                          <foreground color="-1514279"/>
+                          <text value="SEE TABLE"/>
+                        </properties>
+                      </component>
+                      <component id="fe9ce" class="javax.swing.JButton" binding="btnAddTable">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-7439761"/>
+                          <font name="Rockwell Extra Bold" size="14"/>
+                          <foreground color="-1514279"/>
+                          <text value="ADD TO TABLE"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="124ef" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2175030"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="360e0" class="javax.swing.JButton" binding="btnPay">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-7439761"/>
+                          <font name="Rockwell Extra Bold" size="14"/>
+                          <foreground color="-1514279"/>
+                          <text value="PAY"/>
+                        </properties>
+                      </component>
+                      <component id="627e9" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="                                              "/>
+                        </properties>
+                      </component>
+                      <component id="b932f" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="                                              "/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="87cf7" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2175030"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="8d1d9" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="                       "/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="88e5b" class="javax.swing.JLabel" binding="label5">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="                   "/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="4b08e" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="FEEDBACKS"/>
+                </constraints>
+                <properties>
+                  <background color="-2175030"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="b938c" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Rockwell Extra Bold"/>
+                      <foreground color="-2450299"/>
+                      <text value="CUSTOMER'S NAME:"/>
+                    </properties>
+                  </component>
+                  <component id="fff60" class="javax.swing.JComboBox" binding="cmbName2">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-7439761"/>
+                      <font name="Rockwell" size="14"/>
+                      <foreground color="-1514279"/>
+                      <inheritsPopupMenu value="false"/>
+                    </properties>
+                  </component>
+                  <component id="fb91f" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Rockwell Extra Bold"/>
+                      <foreground color="-4753041"/>
+                      <text value="CUSTOMERS' FEEDBACK HISTORY"/>
+                    </properties>
+                  </component>
+                  <grid id="d1a54" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2175030"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="aa283" class="javax.swing.JLabel" binding="ImageLogo">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="              "/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="86091" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2175030"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="9c405" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="          "/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="a1ff3" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2175030"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="bdb22" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="                  "/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="7b34b" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2175030"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="a9af6" class="javax.swing.JButton" binding="btnFeedback">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-7439761"/>
+                          <font name="Rockwell Extra Bold" size="14"/>
+                          <foreground color="-1514279"/>
+                          <text value="CLICK HERE TO LEAVE A FEEDBACK"/>
+                        </properties>
+                      </component>
+                      <component id="bfcf2" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="                                              "/>
+                        </properties>
+                      </component>
+                      <component id="c5037" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="                                              "/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="b2d52" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-2175030"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="761c4" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-2175030"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="62310" class="javax.swing.JLabel" binding="label2" custom-create="true">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <text value="      "/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <component id="6f249" class="javax.swing.JTextArea" binding="txtFeedBack">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-7439761"/>
+                          <font name="Rockwell Extra Bold" size="12"/>
+                          <foreground color="-1514279"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </tabbedpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="ca529"/>
+      <member id="ca529"/>
+      <member id="c20e2"/>
+      <member id="95257"/>
+      <member id="62aa0"/>
+      <member id="baab7"/>
+      <member id="71d3a"/>
+      <member id="30adc"/>
+      <member id="aca9c"/>
+      <member id="8cee9"/>
+      <member id="55eb2"/>
+      <member id="aa97"/>
+      <member id="74d7e"/>
+      <member id="cf822"/>
+      <member id="36bb4"/>
+      <member id="1c6b8"/>
+      <member id="75911"/>
+      <member id="44f03"/>
+      <member id="a647d"/>
+      <member id="12976"/>
+      <member id="f8329"/>
+      <member id="d7b9e"/>
+      <member id="d0a58"/>
+      <member id="1010"/>
+      <member id="22bd4"/>
+      <member id="f68c8"/>
+      <member id="77fbf"/>
+      <member id="e0037"/>
+      <member id="5d5ae"/>
+      <member id="30a6b"/>
+      <member id="a7c70"/>
+      <member id="d4344"/>
+      <member id="c76a6"/>
+      <member id="29baf"/>
+      <member id="3642e"/>
+      <member id="5c632"/>
+      <member id="fc003"/>
+    </group>
+    <group name="buttonGroup2">
+      <member id="e2465"/>
+      <member id="e2465"/>
+      <member id="98d92"/>
+      <member id="e4db"/>
+      <member id="cbe62"/>
+      <member id="ed522"/>
+      <member id="89a40"/>
+      <member id="6db0f"/>
+      <member id="9e7a5"/>
+      <member id="da39d"/>
+      <member id="de0c1"/>
+      <member id="aa566"/>
+      <member id="518fd"/>
+      <member id="2b64e"/>
+      <member id="9a0ac"/>
+      <member id="a40b7"/>
+      <member id="a8e12"/>
+      <member id="e3126"/>
+      <member id="49aed"/>
+      <member id="95f5f"/>
+      <member id="3be10"/>
+      <member id="7a02d"/>
+      <member id="b3c12"/>
+      <member id="97e7b"/>
+      <member id="723c9"/>
+      <member id="201"/>
+      <member id="ec70e"/>
+      <member id="ebf33"/>
+      <member id="a00c6"/>
+      <member id="3beb3"/>
+      <member id="c56c6"/>
+      <member id="83881"/>
+      <member id="99bba"/>
+      <member id="4edaa"/>
+    </group>
+  </buttonGroups>
+</form>
